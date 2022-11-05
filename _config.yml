@@ -43,9 +43,9 @@ disqus-shortname: thedevslot
 # Name of the Author
 author-name: Géraldine Loty
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: assets/images/G_LOTY.jpg
 # 60 Words About the Author
-author-about: 25 ans d'expérience dans l'enseignement, en France et à l'étranger.
+author-about: 25 ans d'expérience dans l'enseignement, en France et à l'étranger. 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/thedevslot
 
