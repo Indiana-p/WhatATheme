@@ -18,8 +18,7 @@ site-keywords: Site, Template, Theme
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
-
+heroimage: https://img.freepik.com/photos-gratuite/etudiants-connaissant-bonne-reponse_329181-14271.jpg?w=2000
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: geraldine@loty.fr
@@ -48,6 +47,8 @@ author-image: assets/images/G_LOTY.jpg
 author-about: 25 ans d'expérience dans l'enseignement, en France et à l'étranger. 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/thedevslot
+# Ajout du Logo
+author-logo: assets/images/meta.jpg
 
 # SASS
 sass:
