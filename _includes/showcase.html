@@ -1,7 +1,11 @@
 <section class="hero is-fullheight has-text-centered" id="hero">
   <div class="hero-body">
     <div class="container">
-      <img src="{{site.url}}{{site.baseurl}}/{{site.author-logo}}" height="200" width="200"> 
+      <div class="column is-one-fifth-desktop is-one-fifth-tablet is-one-fifth-fullhd">
+        <figure class="image" height="200" width="200">
+          <img class="is-rounded" src="{{site.url}}{{site.baseurl}}/{{site.author-logo}}" height="200" width="200" alt="{{site.author-name}}">
+        </figure>
+      </div>
       <h1 class="title has-text-white is-size-1 is-uppercase has-text-weight-bold">
         {{site.title}}
       </h1>

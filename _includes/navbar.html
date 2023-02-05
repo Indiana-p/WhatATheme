@@ -5,7 +5,7 @@
         <div class="navbar-brand">
             <a class="navbar-item"
                 href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
-                <strong>{{site.title}}</strong>
+                <strong style="text-transform:uppercase">{{site.title}}</strong>
             </a>
             <div class="navbar-burger" data-target="navbar-menu">
                 <span></span>
@@ -26,8 +26,8 @@
                 <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#about">INFO</a>
                 <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#contact">CONTACT</a>
                 <a class="navbar-item {% if page.layout == 'blog' %}is-active{% endif %}"
-                    href="{{site.url}}{{site.baseurl}}/blog">BLOG</a>
-                {% include dropdown.html %}
+                    href="{{site.url}}{{site.baseurl}}/blog">BLOG</a> 
+               {% include dropdown.html %}
             </div>
 
         </div>

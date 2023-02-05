@@ -22,10 +22,10 @@ heroimage: https://img.freepik.com/photos-gratuite/etudiants-connaissant-bonne-r
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: geraldine@loty.fr
-facebook_username: thedevslot
+facebook_username: geraldine.loty
 twitter_username: 
-instagram_username: thedevslot
-linkedin_username: thedevslot
+instagram_username: geraldineloty
+linkedin_username: 
 github_username:  
 youtube_channel_id: 
 reddit_username: 
@@ -37,12 +37,13 @@ spotify_username:
 google-analytics: UA-163806439-1
 
 # Disqus
-disqus-shortname: thedevslot
+disqus-shortname:
 
 # Name of the Author
 author-name: Géraldine Loty
 # URL for the Image of the Author
 author-image: assets/images/G_LOTY.jpg
+livre-image: assets/images/DYS_adaptation.jpg
 # 60 Words About the Author
 author-about: J'ai 25 ans d'expérience dans l'enseignement, en France et à l'étranger. 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
