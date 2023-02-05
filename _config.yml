@@ -7,15 +7,15 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: Calleo
+title: Calleo Orthopédagogie
 # Description of the Site
 description: L'ortopédagogie au service des apprentissages
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: /WhatATheme/assets/images/Calleo.png
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url: assets/images/Calleo.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: https://img.freepik.com/photos-gratuite/etudiants-connaissant-bonne-reponse_329181-14271.jpg?w=2000
@@ -26,9 +26,9 @@ facebook_username: thedevslot
 twitter_username: 
 instagram_username: thedevslot
 linkedin_username: thedevslot
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
-reddit_username: /
+github_username:  
+youtube_channel_id: 
+reddit_username: 
 behance_username: 
 dribbble_username: 
 spotify_username: 
@@ -44,11 +44,11 @@ author-name: Géraldine Loty
 # URL for the Image of the Author
 author-image: assets/images/G_LOTY.jpg
 # 60 Words About the Author
-author-about: 25 ans d'expérience dans l'enseignement, en France et à l'étranger. 
+author-about: J'ai 25 ans d'expérience dans l'enseignement, en France et à l'étranger. 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/thedevslot
 # Ajout du Logo
-author-logo: assets/images/meta.jpg
+author-logo: assets/images/Calleo.png
 
 # SASS
 sass:
