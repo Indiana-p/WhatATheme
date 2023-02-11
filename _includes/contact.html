@@ -1,12 +1,13 @@
 <section class="hero is-fullheight has-text-centered" id="contact">
     <div class="hero-body">
+        <div class="column is-one-quarters is-centered">
+            <figure class="image">
+                <img class="is-rounded" src="{{site.url}}{{site.baseurl}}/{{site.author-logo}}"
+                    alt="{{site.author-name}}">
+                <figcaption {{site.author-name}}></figcaption>
+            </figure>
+        </div>
         <div class="container">
-            <div class="column is-one-fifth-desktop is-one-fifth-tablet is-one-fifth-fullhd">
-                <figure class="image is-128x128">
-                    <img class="is-rounded" src="{{site.url}}{{site.baseurl}}/{{site.author-logo}}" alt="{{site.author-name}}">
-                    <figcaption>{{site.author-name}}</figcaption>
-                </figure>
-            </div>
             {% unless site.telephone == %}
             <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
                 Par téléphone :
@@ -14,7 +15,7 @@
                 <i class="fas fa-mobile-alt"></i> {{site.telephone}}
             </h3>
             <hr>
-            {% endunless %} 
+            {% endunless %}
             <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
                 Par Messagerie :
             </h3>
