@@ -7,13 +7,14 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: Calleo Orthopédagogie
+title: Calleo 
+title_bis: Orthopédagogie
 # Description of the Site
 description: L'ortopédagogie au service des apprentissages
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/Calleo.png
 # Keywords of the Site
-site-keywords: Site, Template, Orthopédagogie
+site-keywords: apprentissages, Dys, Orthopédagogie
 # URL for the Image of custom Favicon
 favicon-url: assets/images/Calleo.png
 
