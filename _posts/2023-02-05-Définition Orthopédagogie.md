@@ -1,7 +1,7 @@
 ---
 title: Qu'est-ce que l'Orthopédagogie
 layout: post
-post-image: "https://img.freepik.com/free-vector/head-profile-with-gears_98292-387.jpg?w=740&t=st=1675632315~exp=1675632915~hmac=b66dfddb14403eb5a53170f4d817ba204505767db660d60b4f906b7be026c612"
+post-image: "https://img.freepik.com/free-photo/human-brain-medical-digital-illustration_53876-103046.jpg?w=740&t=st=1676229648~exp=1676230248~hmac=e01b0d0df418a8bd39b392f4fb586b4d7a271a533ab962656e8caa1e43d654c0"
 description: Origine et définition de l'Orthopédagogie.
 tags:
 - neuro-sciences
