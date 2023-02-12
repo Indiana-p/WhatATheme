@@ -12,7 +12,7 @@ title_bis: Orthopédagogie
 # Description of the Site
 description: L'ortopédagogie au service des apprentissages
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/Calleo.png
+site-image: assets/images/Calleo.png
 # Keywords of the Site
 site-keywords: apprentissages, Dys, Orthopédagogie
 # URL for the Image of custom Favicon
@@ -36,7 +36,7 @@ dribbble_username:
 spotify_username: 
 
 # Google Analytics
-google-analytics: UA-163806439-1
+google-analytics: G-M14FET3SB4
 
 # Disqus
 disqus-shortname:
@@ -49,7 +49,7 @@ livre-image: assets/images/DYS_adaptation.jpg
 # 60 Words About the Author
 author-about: Après 25 ans d'expérience dans l'enseignement, en France et à l'étranger, j'ai décidé de m'orienter vers l'orthopédagogie. Je souhaite me concentrer sur les troubles d'apprentissage et l'adaptation de la pédagogie pour soulager les enfants en difficulté. L'approche cognitive de l'orthopédagogie permet de prendre conscience des mécanismes qui sont mis en oeuvre par le cerveau et d'identifer les stratégies pertinentes pour contouner les difficultés d'apprentissage.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url:
 # Ajout du Logo
 author-logo: assets/images/Calleo.png
 
