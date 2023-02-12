@@ -3,7 +3,7 @@
     <div class="hero-body">
         <div class="container">
             <div class="columns">
-                <div class="column is-one-fifth is-centered">
+                <div class="column is-one-quarter is-centered">
                     <figure class="image">
                         <img src="{{site.url}}{{site.baseurl}}/{{site.author-logo}}" alt="{{site.author-name}}">
                     </figure>
@@ -14,15 +14,11 @@
                 <div class="column">
                     {% unless site.telephone == %}
                     <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
-                        Par téléphone :
-                        <br>
-                        <br>
                         <i class="fas fa-mobile-alt"></i> {{site.telephone}}
                     </h3>
                     <hr>
                     {% endunless %}
                     <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
-                        Par Messagerie :
                     </h3>
                     <br>
                     <div class="container columns is-centered">
