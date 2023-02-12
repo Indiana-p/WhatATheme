@@ -28,17 +28,19 @@
             <!--Link Section-->
             <div class="column has-text-white">
                 <h3>Liens utiles</h3>
-             <!--  {% for sitepage in site.html_pages offset: 4 %}
+                <!--  {% for sitepage in site.html_pages offset: 4 %}
                 {% unless sitepage.url == '/'  limit: 2 %}
                 <li>
                     <a href="{{sitepage.url | absolute_url}}">{{sitepage.title}}</a>
                 </li>
                 {% endunless %}
-                {% endfor %} --> 
+                {% endfor %} -->
                 <li>
-                    <a href="https://www.orthopedagogues.fr/">Union des Orthopédagogues de France</a>
+                    <a href="https://www.orthopedagogues.fr/">Union des Orthopédagogues</a>
                 </li>
-                <li><a href="https://www.ecoleorthopedagogie.fr/">Ecole Française d'Orthopédagogie</a></li>
+                <li>
+                    <a href="https://www.ecoleorthopedagogie.fr/">Ecole Française d'Orthopédagogie</a>
+                </li>
             </div>
 
             <!--Blog-post Section-->
@@ -53,6 +55,6 @@
         </div>
     </div>
     <div class="has-background-black has-text-centered has-text-white" id="credits">
-        <i class="far fa-copyright"></i> {{ "now" | date: "%Y" }} | <a> Calleo Orthopédagogie - Géraldine LOTY</a>
+        <i class="far fa-copyright"></i> {{ "now" | date: "%Y" }} | Calleo Orthopédagogie | Géraldine LOTY
     </div>
 </footer>
