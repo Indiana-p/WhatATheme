@@ -52,7 +52,7 @@ For more information about writing markdown you can checkout the following markd
 5. Item 5
 
 **Images in the post will look like:**<br>
-![Test Image]('WhatATheme/assets/images/1280x720 Placeholder.png')
+![Test Image](WhatATheme/assets/images/1280x720Placeholder.png)
 WhatATheme/assets/images/1280x720 Placeholder.png
 
 **Normal text in the post will look like**<br>
