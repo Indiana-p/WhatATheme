@@ -14,7 +14,7 @@
               <div class="box-back">
                 <h2 class="is-size-5 has-text-weight-semibold has-text-white has-text-centered">
                   {{site.description1}}</h2>
-                <br>
+                ✱
                 <h2 class="is-size-5 has-text-weight-semibold has-text-white has-text-centered">
                   {{site.description2}}</h2>
               </div>
@@ -23,7 +23,7 @@
         </div>
         <div class="column">
           <h3 class="column title is-size-3 is-uppercase has-text-weight-bold">
-            {{site.title}} {{site.title_bis}}
+            {{site.title}}
           </h3>
           <h3 class="is-size-4 is-uppercase has-text-weight-semibold has-text-black is-marginless">
             {{site.author-name}}
@@ -35,30 +35,37 @@
           <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
             <i class="fas fa-mobile-alt"></i> <a href="tel:{{site.appel}}">{{site.telephone}}</a>
           </h3>
-          <hr>
+          
           {% endunless %}
-          <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
+          {% unless site.email == %}
+          <h3 class="is-size-5 is-lowercase has-text-weight-semibold has-text-black is-marginless">
+            <i class="fas fa-envelope"></i> <a href="mailto:{{site.email}}">{{site.email}}</a>
           </h3>
+          
+          
+          {% endunless %}
+          
+          
           <br>
           <div class="container columns is-centered">
             <a id="contact-button"
               class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths "
               href="https://tally.so#tally-open=nrDNX2&tally-emoji-text=👋&tally-emoji-animation=wave">
-              <i class="fa fa-file-text"></i>Formulaire</a>
+              <i class="fa fa-file-text"></i>Formulaire de contact</a>
             <!--        {% unless site.facebook_username == %}
                         <a id="contact-button" href="https://m.me/{{site.facebook_username}}"
                             class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths "
                             target="_blank">
                             <i class="fab fa-facebook-messenger"></i>Messenger
                         </a>
-                        {% endunless %} -->
+                        {% endunless %} 
             {% unless site.email == %}
             <a id="contact-button" href="mailto:{{site.email}}"
               class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
               target="_blank">
               <i class="fas fa-envelope"></i>Email
             </a>
-            {% endunless %}
+            {% endunless %} -->
             {% unless site.twitter_username == %}
             <a id="contact-button" href="https://www.twitter.com/intent/tweet?screen_name={{site.twitter_username}}"
               class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"

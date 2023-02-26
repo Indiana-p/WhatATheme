@@ -77,7 +77,7 @@ hr {
     background-color: transparent;
     width: 260px;
     height: 270px;
-    border: 1px solid #eeeeee;
+    border: 0px solid #eeeeee;
     perspective: 1000px;
   }
 
@@ -103,7 +103,7 @@ hr {
   }
 
   .box-front {
-    background-color: #cccccc;
+    background-color: transparent;
     color: #111111;
   }
 
@@ -111,5 +111,10 @@ hr {
     background-color: #8ebf42;
     color: #eeeeee;
     padding: 10% 3%;
+    border-radius: 5%;
     transform: rotateY(180deg);
+  }
+
+  .image-arrondie {
+    border-radius: 5%;
   }
