@@ -1,3 +1,18 @@
+<style>
+    .hover_img a {
+        position: relative;
+    }
+
+    .hover_img a span {
+        position: absolute;
+        display: none;
+        z-index: 99;
+    }
+
+    .hover_img a:hover span {
+        display: block;
+    }
+</style>
 <section class="hero is-fullheight has-text-centered has-background-white-ter" id="about">
     <div class="hero-body">
         <div class="container">
@@ -12,11 +27,22 @@
                     class="column has-text-justified-desktop has-text-justified-tablet has-text-justified-fullhd has-text-justified-widescreen">
                     <p>Forte d’une expérience de plus de 20 ans dans l’enseignement en France et à l’étranger, j’ai
                         toujours eu à cœur d’être au plus près des besoins des élèves en difficultés et/ou porteurs
-                        de troubles des apprentissages. J’ai partagé cette expérience dans le livre 
-                        <a href={{site.livre-url}}>« Dys : outils et adaptations dans la classe », Retz</a>, co-écrit avec le<a href="https://dr-michele-mazeau.wixsite.com/dr-michele-mazeau">Dr. Michèle Mazeau.</a><br>
+                        de troubles des apprentissages.
+                    <p>
+                    <div class="hover_img">
+                        <p>J’ai partagé cette expérience dans le livre
+                            <a href={{site.livre-url}}>« Dys : outils et adaptations dans la classe
+                                », Retz<span><img src="{{site.livre-image}}" alt="image" height="100" /></span></a>,
+                            co-écrit avec le<a href="https://dr-michele-mazeau.wixsite.com/dr-michele-mazeau">Dr.
+                                Michèle
+                                Mazeau.</a>
+                        </p>
+                    </div>
+                    <p>
                         Aujourd’hui, désireuse d’apporter une aide personnalisée et ciblée, en individuelle ou en
                         petits groupes, je me suis formée à l’orthopédagogie à l’Ecole Française d’Orthopédagogie
-                        auprès d’experts reconnus en France, en Belgique et au Québec, et j’ai ouvert mon cabinet.</p>
+                        auprès d’experts reconnus en France, en Belgique et au Québec, et j’ai ouvert mon cabinet.
+                    </p>
                     <br>
                     <div class="container columns is-centered">
                         <div>
@@ -33,12 +59,12 @@
                         </div> -->
                     </div>
                 </div>
-                <div class="column is-one-fifth-desktop is-one-fifth-tablet is-one-fifth-fullhd">
+                <!---       <div class="column is-one-fifth-desktop is-one-fifth-tablet is-one-fifth-fullhd">
                     <figure class="image">
 
                         <a href={{site.livre-url}}><img src="{{site.livre-image}}" alt="{{site.author-name}}"></a>
                     </figure>
-                </div>
+                </div> -->
             </div>
         </div>
 </section>
