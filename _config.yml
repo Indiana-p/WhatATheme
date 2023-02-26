@@ -10,7 +10,10 @@ baseurl:
 title: Calleo 
 title_bis: Orthopédagogie
 # Description of the Site
-description: L'ortopédagogie au service des apprentissages
+description: Devenir l’expert de ses apprentissages !
+description1: Apprendre pour réussir, ça s’apprend.
+description2: Retrouver l’envie d’apprendre.
+
 # URL of Image of the Site
 site-image: assets/images/Calleo.png
 # Keywords of the Site

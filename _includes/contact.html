@@ -1,101 +1,158 @@
 <script async src="https://tally.so/widgets/embed.js"></script>
 <section class="hero is-fullheight has-text-centered" id="contact">
-    <div class="hero-body">
-        <div class="container">
-            <div class="columns">
-                <div class="column is-one-quarter is-centered">
-                    <figure class="image">
-                        <img src="{{site.url}}{{site.baseurl}}/{{site.author-logo}}" alt="{{site.author-name}}">
-                    </figure>
-                    <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
-                        {{site.author-name}}
-                    </h3>
-                </div>
-                <div class="column">
-                    {% unless site.telephone == %}
-                    <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
-                        <i class="fas fa-mobile-alt"></i> {{site.telephone}}
-                    </h3>
-                    <hr>
-                    {% endunless %}
-                    <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
-                    </h3>
-                    <br>
-                    <div class="container columns is-centered">
-                        <a id="contact-button" class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths " 
-                            href="https://tally.so#tally-open=nrDNX2&tally-emoji-text=👋&tally-emoji-animation=wave">
-                            <i class="fa fa-file-text"></i>Formulaire</a>
-                <!--        {% unless site.facebook_username == %}
+  <div class="hero-body">
+    <div class="container">
+      <style>
+        .box {
+          background-color: transparent;
+          width: 220px;
+          height: 220px;
+          border: 1px solid #eeeeee;
+          perspective: 1000px;
+        }
+
+        .box-inner {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          transition: transform 0.5s;
+          transform-style: preserve-3d;
+        }
+
+        .box:hover .box-inner {
+          transform: rotateY(180deg);
+        }
+
+        .box-front,
+        .box-back {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          backface-visibility: hidden;
+        }
+
+        .box-front {
+          background-color: #cccccc;
+          color: #111111;
+        }
+
+        .box-back {
+          background-color: #8ebf42;
+          color: #eeeeee;
+          transform: rotateY(180deg);
+        }
+      </style>
+
+
+      <div class="columns">
+        <div class="column is-one-quarter is-centered">
+          <div class="box">
+
+            <div class="box-inner">
+              <div class="box-front">
+                <figure class="image">
+                  <img src="{{site.url}}{{site.baseurl}}/{{site.author-logo}}" alt="{{site.author-name}}">
+                </figure>
+              </div>
+              <div class="box-back">
+                <h2 class="is-size-6 has-text-weight-semibold has-text-white has-text-centered">
+                  {{site.description1}}</h2>
+                <br>
+                <h2 class="is-size-6 has-text-weight-semibold has-text-white has-text-centered">
+                  {{site.description2}}</h2>
+              </div>
+            </div>
+          </div>
+          <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
+            {{site.author-name}}
+          </h3>
+        </div>
+        <div class="column">
+          {% unless site.telephone == %}
+          <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
+            <i class="fas fa-mobile-alt"></i> {{site.telephone}}
+          </h3>
+          <hr>
+          {% endunless %}
+          <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
+          </h3>
+          <br>
+          <div class="container columns is-centered">
+            <a id="contact-button"
+              class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths "
+              href="https://tally.so#tally-open=nrDNX2&tally-emoji-text=👋&tally-emoji-animation=wave">
+              <i class="fa fa-file-text"></i>Formulaire</a>
+            <!--        {% unless site.facebook_username == %}
                         <a id="contact-button" href="https://m.me/{{site.facebook_username}}"
                             class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths "
                             target="_blank">
                             <i class="fab fa-facebook-messenger"></i>Messenger
                         </a>
                         {% endunless %} -->
-                        {% unless site.email == %}
-                        <a id="contact-button" href="mailto:{{site.email}}"
-                            class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
-                            target="_blank">
-                            <i class="fas fa-envelope"></i>Email
-                        </a>
-                        {% endunless %}
-                        {% unless site.twitter_username == %}
-                        <a id="contact-button"
-                            href="https://www.twitter.com/intent/tweet?screen_name={{site.twitter_username}}"
-                            class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
-                            target="_blank">
-                            <i class="fab fa-twitter"></i>Tweet me on Twitter
-                        </a>
-                        {% endunless %}
-                    </div>
-                    <hr>
-                    <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
-                        Vous pouvez aussi me suivre sur ces réseaux :
-                    </h3>
-                    <div class="column is-full is-size-3">
-                        {% unless site.facebook_username == %}
-                        <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank"
-                            class="has-text-black"><i class="fab fa-facebook"></i></a>
-                        {% endunless %}
-                        {% unless site.twitter_username == %}
-                        <a href="https://twitter.com/intent/user?screen_name={{site.twitter_username}}" target="_blank"
-                            class="has-text-black"><i class="fab fa-twitter"></i></a>
-                        {% endunless %}
-                        {% unless site.instagram_username == %}
-                        <a href="http://www.instagram.com/{{site.instagram_username}}" target="_blank"
-                            class="has-text-black"><i class="fab fa-instagram"></i></a>
-                        {% endunless %}
-                        {% unless site.linkedin_username == %}
-                        <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank"
-                            class="has-text-black"><i class="fab fa-linkedin"></i></a>
-                        {% endunless %}
-                        {% unless site.github_username == %}
-                        <a href="http://www.github.com/{{site.github_username}}" target="_blank"
-                            class="has-text-black"><i class="fab fa-github"></i></a>
-                        {% endunless %}
-                        {% unless site.youtube_channel_id == %}
-                        <a href="http://www.youtube.com/channel/{{site.youtube_channel_id}}" target="_blank"
-                            class="has-text-black"><i class="fab fa-youtube"></i></a>
-                        {% endunless %}
-                        {% unless site.reddit_username == %}
-                        <a href="http://www.reddit.com/u/{{site.reddit_username}}" target="_blank"
-                            class="has-text-black"><i class="fab fa-reddit"></i></a>
-                        {% endunless %}
-                        {% unless site.behance_username == %}
-                        <a href="http://www.behance.com/{{site.behance_username}}" target="_blank"
-                            class="has-text-black"><i class="fab fa-behance"></i></a>
-                        {% endunless %}
-                        {% unless site.dribbble_username == %}
-                        <a href="http://www.dribbble.com/{{site.dribbble_username}}" target="_blank"
-                            class="has-text-black"><i class="fab fa-dribbble"></i></a>
-                        {% endunless %}
-                        {% unless site.spotify_username == %}
-                        <a href="http://open.spotify.com/user/{{site.spotify_username}}" target="_blank"
-                            class="has-text-black"><i class="fab fa-spotify"></i></a>
-                        {% endunless %}
-                    </div>
-                </div>
-            </div>
+            {% unless site.email == %}
+            <a id="contact-button" href="mailto:{{site.email}}"
+              class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
+              target="_blank">
+              <i class="fas fa-envelope"></i>Email
+            </a>
+            {% endunless %}
+            {% unless site.twitter_username == %}
+            <a id="contact-button" href="https://www.twitter.com/intent/tweet?screen_name={{site.twitter_username}}"
+              class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
+              target="_blank">
+              <i class="fab fa-twitter"></i>Tweet me on Twitter
+            </a>
+            {% endunless %}
+          </div>
+          <hr>
+          <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
+            Vous pouvez aussi me suivre sur ces réseaux :
+          </h3>
+          <div class="column is-full is-size-3">
+            {% unless site.facebook_username == %}
+            <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank" class="has-text-black"><i
+                class="fab fa-facebook"></i></a>
+            {% endunless %}
+            {% unless site.twitter_username == %}
+            <a href="https://twitter.com/intent/user?screen_name={{site.twitter_username}}" target="_blank"
+              class="has-text-black"><i class="fab fa-twitter"></i></a>
+            {% endunless %}
+            {% unless site.instagram_username == %}
+            <a href="http://www.instagram.com/{{site.instagram_username}}" target="_blank" class="has-text-black"><i
+                class="fab fa-instagram"></i></a>
+            {% endunless %}
+            {% unless site.linkedin_username == %}
+            <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-black"><i
+                class="fab fa-linkedin"></i></a>
+            {% endunless %}
+            {% unless site.github_username == %}
+            <a href="http://www.github.com/{{site.github_username}}" target="_blank" class="has-text-black"><i
+                class="fab fa-github"></i></a>
+            {% endunless %}
+            {% unless site.youtube_channel_id == %}
+            <a href="http://www.youtube.com/channel/{{site.youtube_channel_id}}" target="_blank"
+              class="has-text-black"><i class="fab fa-youtube"></i></a>
+            {% endunless %}
+            {% unless site.reddit_username == %}
+            <a href="http://www.reddit.com/u/{{site.reddit_username}}" target="_blank" class="has-text-black"><i
+                class="fab fa-reddit"></i></a>
+            {% endunless %}
+            {% unless site.behance_username == %}
+            <a href="http://www.behance.com/{{site.behance_username}}" target="_blank" class="has-text-black"><i
+                class="fab fa-behance"></i></a>
+            {% endunless %}
+            {% unless site.dribbble_username == %}
+            <a href="http://www.dribbble.com/{{site.dribbble_username}}" target="_blank" class="has-text-black"><i
+                class="fab fa-dribbble"></i></a>
+            {% endunless %}
+            {% unless site.spotify_username == %}
+            <a href="http://open.spotify.com/user/{{site.spotify_username}}" target="_blank" class="has-text-black"><i
+                class="fab fa-spotify"></i></a>
+            {% endunless %}
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </section>
