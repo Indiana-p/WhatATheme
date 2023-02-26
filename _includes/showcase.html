@@ -1,7 +1,22 @@
 <section class="hero is-fullheight has-text-centered" id="hero">
   <div class="hero-body">
     <div class="container">
-        <img class="column is-2 is-offset-5 is-centered"  src="{{site.url}}{{site.baseurl}}/{{site.author-logo}}" alt="{{site.author-name}}">
+      <div class="box container">
+        <div class="box-inner">
+          <div class="box-front">
+            <figure class="image">
+              <img src="{{site.url}}{{site.baseurl}}/{{site.author-logo}}" alt="{{site.author-name}}">
+            </figure>
+          </div>
+          <div class="box-back">
+            <h2 class="is-size-6 has-text-weight-semibold has-text-white has-text-centered">
+              {{site.description1}}</h2>
+            <br>
+            <h2 class="is-size-6 has-text-weight-semibold has-text-white has-text-centered">
+              {{site.description2}}</h2>
+          </div>
+        </div>
+      </div>
       <h1 class="title has-text-white is-size-1 is-uppercase has-text-weight-bold">
         {{site.title}}
       </h1>
