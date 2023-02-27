@@ -1,21 +1,17 @@
 - name: Le métier d’orthopédagogue
   image: ../assets/images/Cerveau%201.png
-  image2: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   link: def-ortho
   description: "Description du métier d'orthopédagogue..."
 - name: A qui s’adresse l’orthopédagogue ?
   link: qui
   image: https://img.freepik.com/free-photo/back-school-happy-smiling-student-draws-desk_73683-2251.jpg?w=740&t=st=1676222456~exp=1676223056~hmac=8fe188496b426d1a60e2ad7aace3174a183d8687594024498efaeb55ea506e6d
-  description: "En tant qu’orthopédagogue, je suis en mesure d’apporter une aide ciblée et personnalisée
-aux élèves porteurs de troubles d’apprentissages mais également à toute personne en
-difficulté d’apprentissages et souhaitant progresser et réussir, quelques soient son âge, son
-profil ou son parcours."
+  description: "Une aide adaptée et ciblée..."
 - name: L’expertise orthopédagogique
   link: expertise
   image: ../assets/images/Cerveau%203.png
-  description: "Démarche et processus qui doivent être mis en oeuvre pour l'accompagnement de l'enfant..."
+  description: "Démarche et processus..."
 - name: Les troubles des apprentissages
   link: Troubles
   image: ../assets/images/Ide.png
-  description: "Un aperçu des différents troubles pouvant affecter les apprentissages..."
+  description: "DYS et TSLA..."
 
