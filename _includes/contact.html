@@ -25,9 +25,8 @@
           <h3 class="column title is-size-4 is-uppercase has-text-weight-bold">
             {{site.title}}
           </h3>
-          <h3 class="is-size-4 is-uppercase has-text-weight-semibold has-text-black is-marginless">
-            {{site.author-name}}
-          </h3>
+          <a class="is-size-4 is-uppercase has-text-weight-semibold has-text-black is-marginless"
+            href="{{site.url}}{{site.baseurl}}/#about">{{site.author-name}}</a>
           <h3 class="is-size-5 has-text-weight-semibold has-text-black is-marginless">
             19 Rue Florian 92160 ANTONY
           </h3>
@@ -79,8 +78,7 @@
           <div class="column is-full is-size-3">
             {% unless site.facebook_username == %}
             <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank" class="has-text-black">
-              <img
-                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdod
+              <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdod
                 D0iMWVtIiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+PHBhdGggZmlsbD0iIzE4NzdGMiIgZD0iTTI1NiAxMjhDMjU2IDU3LjMwOCAxOTguNjkyI
                 DAgMTI4IDBDNTcuMzA4IDAgMCA1Ny4zMDcgMCAxMjhjMCA2My44ODggNDYuODA4IDExNi44NDMgMTA4IDEyNi40NDVWMTY1SDc1LjV2LTM3S
                 DEwOFY5OS44YzAtMzIuMDggMTkuMTEtNDkuOCA0OC4zNDctNDkuOEMxNzAuMzUyIDUwIDE4NSA1Mi41IDE4NSA1Mi41Vjg0aC0xNi4xNEMxN
@@ -88,8 +86,7 @@
                 jU1NiAxMDgtMTI2LjQ0NSIvPjxwYXRoIGZpbGw9IiNGRkYiIGQ9Im0xNzcuODI1IDE2NWw1LjY3NS0zN0gxNDh2LTI0LjAxQzE0OCA5My44N
                 jYgMTUyLjk1OSA4NCAxNjguODYgODRIMTg1VjUyLjVTMTcwLjM1MiA1MCAxNTYuMzQ3IDUwQzEyNy4xMSA1MCAxMDggNjcuNzIgMTA4IDk5L
                 jhWMTI4SDc1LjV2MzdIMTA4djg5LjQ0NUExMjguOTU5IDEyOC45NTkgMCAwIDAgMTI4IDI1NmExMjguOSAxMjguOSAwIDAgMCAyMC0xLjU1N
-                VYxNjVoMjkuODI1Ii8+PC9zdmc+"
-                width="30" height="30" alt="facebook" /></a>
+                VYxNjVoMjkuODI1Ii8+PC9zdmc+" width="30" height="30" alt="facebook" /></a>
             {% endunless %}
             {% unless site.twitter_username == %}
             <a href="https://twitter.com/intent/user?screen_name={{site.twitter_username}}" target="_blank"
@@ -97,7 +94,7 @@
             {% endunless %}
             {% unless site.linkedin_username == %}
             <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-black"><img
-              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0
               iMWVtIiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+PHBhdGggZmlsbD0iIzBBNjZDMiIgZD0iTTIxOC4xMjMgMjE4LjEyN2gtMzcuOTMxdi01OS40M
               DNjMC0xNC4xNjUtLjI1My0zMi40LTE5LjcyOC0zMi40Yy0xOS43NTYgMC0yMi43NzkgMTUuNDM0LTIyLjc3OSAzMS4zNjl2NjAuNDNoLTM3Ljk
               zVjk1Ljk2N2gzNi40MTN2MTYuNjk0aC41MWEzOS45MDcgMzkuOTA3IDAgMCAxIDM1LjkyOC0xOS43MzNjMzguNDQ1IDAgNDUuNTMzIDI1LjI4O
@@ -106,8 +103,7 @@
               TMgMjIuMDEzIDAgMCAxIDU2Ljk1NSA3OS4yN20xOC45NjYgMTM4Ljg1OEgzNy45NVY5NS45NjdoMzcuOTd2MTIyLjE2Wk0yMzcuMDMzLjAxOEg
               xOC44OUM4LjU4LS4wOTguMTI1IDguMTYxLS4wMDEgMTguNDcxdjIxOS4wNTNjLjEyMiAxMC4zMTUgOC41NzYgMTguNTgyIDE4Ljg5IDE4LjQ3N
               GgyMTguMTQ0YzEwLjMzNi4xMjggMTguODIzLTguMTM5IDE4Ljk2Ni0xOC40NzRWMTguNDU0Yy0uMTQ3LTEwLjMzLTguNjM1LTE4LjU4OC0xOC4
-              5NjYtMTguNDUzIi8+PC9zdmc+"
-              width="30" height="30" alt="linkedin" /></a>
+              5NjYtMTguNDUzIi8+PC9zdmc+" width="30" height="30" alt="linkedin" /></a>
             {% endunless %}
             {% unless site.instagram_username == %}
             <a href="http://www.instagram.com/{{site.instagram_username}}" target="_blank" class="has-text-black">
