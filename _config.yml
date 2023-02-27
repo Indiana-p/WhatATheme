@@ -21,7 +21,8 @@ site-keywords: apprentissage, dys, orthopedagogie, orthopedagogue, antony,
 favicon-url: assets/images/Calleo.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: "../../assets/images/How%20to%20install%20and%20use%20WhatATheme.png"
+heroimage: 
+heroimage3: "../../assets/images/How%20to%20install%20and%20use%20WhatATheme.png"
 heroimage2: https://img.freepik.com/photos-gratuite/etudiants-connaissant-bonne-reponse_329181-14271.jpg?w=2000
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
@@ -31,7 +32,7 @@ appel: +33682146473
 facebook_username: geraldine.loty
 twitter_username: 
 instagram_username: geraldineloty
-linkedin_username: 
+linkedin_username: géraldine-loty-25bb9b267
 github_username:  
 youtube_channel_id: 
 reddit_username: 
