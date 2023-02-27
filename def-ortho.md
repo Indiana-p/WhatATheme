@@ -1,29 +1,14 @@
 ---
-title: Test Page
+title: Le métier d’orthopédagogue
 layout: page
 ---
 
-# This is heading 1
-## This is heading 2
-### This is heading 3
-#### This is heading 4
-##### This is heading 5
-###### This is heading 6
+Ce métier est largement répandu et reconnu dans de nombreux pays depuis les années 70 :
+Canada, Belgique, Suisse, Finlande… Il s’implante depuis quelques années en France.<br>
 
-[This is a link](#)
+Le métier d’orthopédagogue, à la croisée de la pédagogie et des sciences cognitives,
+apporte une aide professionnelle ciblée aux élèves en difficulté en leur permettant
+d’optimiser leurs stratégies d'apprentissage au service de leur réussite scolaire : gérer son
+attention, mémoriser, comprendre, s’organiser, développer sa motivation.<br>
 
-> This is a blockquote
-
-`This is code`
-
-### Bullet List
-* Item 1
-* Item 2
-* Item 3
-* Item 4
-
-### Number List
-1. Item 1
-2. Item 2
-3. Item 3
-4. Item 4
+L’orthopédagogue s’appuie sur la gestion mentale, les profils d’apprentissages et la pensée visuelles mais également sur les dernières découvertes scientifiques en neuro-éducation et en sciences cognitives. Il a pour but de faire émerger les mécanismes mentaux de son élève en jeu dans les apprentissages afin de les mettre en œuvre efficacement et de les développer. Et ainsi l’élève renoue avec l’envie d’apprendre, la réussite, l’estime de soi et la motivation.
