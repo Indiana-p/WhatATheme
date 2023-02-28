@@ -16,9 +16,22 @@ layout: compress
                         {{page.title}}
                     </h1>
                     <hr class="has-background-black">
-                    <div class="content is-marginless has-text-justified">
-                        {{ content }}
+                    <div class="columns">
+                        <div class="column is-one-quarter">
+                            <figure class="image">
+                                <img src="{{page.image}}" alt="{{site.author-name}}">
+                            </figure>
+                            <a href="{{site.url}}{{site.baseurl}}/project"
+                                class="button is-fullwidth is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold">RETOUR</a>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <div class="content is-marginless has-text-justified">
+                                {{ content }}
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>

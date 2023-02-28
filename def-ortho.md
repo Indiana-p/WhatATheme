@@ -1,8 +1,9 @@
 ---
 title: Le métier d’orthopédagogue
+image: ../assets/images/Cerveau%201.png
 layout: page
 ---
-<img src="../assets/images/Cerveau%201.png" width="250" />
+
 Ce métier est largement répandu et reconnu dans de nombreux pays depuis les années 70 :
 Canada, Belgique, Suisse, Finlande… Il s’implante depuis quelques années en France.<br>
 

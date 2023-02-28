@@ -4,7 +4,7 @@
   description: "Description du métier d'orthopédagogue..."
 - name: A qui s’adresse l’orthopédagogue ?
   link: qui
-  image: https://img.freepik.com/free-photo/back-school-happy-smiling-student-draws-desk_73683-2251.jpg?w=740&t=st=1676222456~exp=1676223056~hmac=8fe188496b426d1a60e2ad7aace3174a183d8687594024498efaeb55ea506e6d
+  image: ../assets/images/enfant.png
   description: "Une aide adaptée et ciblée..."
 - name: L’expertise orthopédagogique
   link: expertise

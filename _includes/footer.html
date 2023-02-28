@@ -18,7 +18,7 @@
                         <div class="column is-marginless">
                             <h5 class="has-text-grey-lighter">{{site.author-name}}</h5>
                             <div class="content has-text-grey">
-                                <p>{{site.author-about | truncate: 75 }}</p>
+                                <p>{{site.author-about | truncate: 90 }}</p>
                             </div>
                         </div>
                     </div>
@@ -36,14 +36,14 @@
                 {% endunless %}
                 {% endfor %} -->
                 <li>
-                    <a href="https://www.orthopedagogues.fr/">Union des Orthopédagogues</a>
+                    <a href="https://www.orthopedagogues.fr/">Union des Orthopédagogues de France</a>
                 </li>
                 <li>
                     <a href="https://www.ecoleorthopedagogie.fr/">Ecole Française d'Orthopédagogie</a>
                 </li>
             </div>
 
-            <!--Blog-post Section-->
+            <!--Blog-post Section
             <div class="column has-text-white">
                 <h3>Références</h3>
                 {% for post in site.posts offset: 0 limit:3 %}
@@ -51,7 +51,7 @@
                     <a href="{{post.url | absolute_url}}">{{post.title}}</a>
                 </li>
                 {% endfor %}
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="has-background-black has-text-centered has-text-white" id="credits">

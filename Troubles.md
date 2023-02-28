@@ -1,9 +1,9 @@
 ---
 title: Les troubles des apprentissages
+image: ../assets/images/Ide.png
 layout: page
 ---
 
-<img src="../assets/images/Ide.png" width="250" />
 Forte d’une grande expérience de terrain au plus près des besoins des élèves porteurs de troubles des apprentissages, je connais bien les aménagements pédagogiques qui peuvent être mis en place pour aider ces élèves au quotidien et leur permettre de réussir leur
 scolarité à la hauteur de leurs capacités. Mon expertise orthopédagogique complète désormais ces compétences. <br>
 D’après les dernières classifications internationales en vigueur (DSM5 et CIM11), les

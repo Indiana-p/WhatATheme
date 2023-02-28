@@ -1,8 +1,8 @@
 ---
 title: L’expertise orthopédagogique
+image: "../assets/images/Cerveau%203.png"
 layout: page
 ---
-<img src="../assets/images/Cerveau%203.png" width="250" />
 Voici les différentes étapes de la démarche : 
 
 1. Un premier entretien nous permet d’échanger sur votre demande, sur le parcours de votre enfant et vos inquiétudes. 
