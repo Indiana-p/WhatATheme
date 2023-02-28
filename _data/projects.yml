@@ -5,7 +5,7 @@
 - name: A qui s’adresse l’orthopédagogue ?
   link: qui
   image: ../assets/images/enfant.png
-  description: "Une aide adaptée et ciblée..."
+  description: 
 - name: L’expertise orthopédagogique
   link: expertise
   image: ../assets/images/Cerveau%203.png
@@ -13,5 +13,5 @@
 - name: Les troubles des apprentissages
   link: Troubles
   image: ../assets/images/Ide.png
-  description: "DYS et TSLA..."
+  description: 
 
