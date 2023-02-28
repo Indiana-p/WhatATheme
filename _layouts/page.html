@@ -12,13 +12,15 @@ layout: compress
         <div class="hero-body">
             <div class="container" id="page-section">
                 <div class="section">
+                    <a href="{{site.url}}{{site.baseurl}}/project">
+                            <button class="delete columns column is-mobile is-1 is-offset-12"></button></a>
                     <div class="columns ">
                         <div class="column is-marginless is-one-quarter">
                             <figure class="image">
                                 <img src="{{page.image}}" alt="{{site.author-name}}">
                             </figure>
                         </div>
-                        <div class="column is-mobile">
+                        <div class="column">
                             <h1 class="title is-2 is-uppercase has-text-weight-bold has-text-centered is-hidden-mobile">
                                 {{page.title}}
                             </h1>
@@ -26,8 +28,7 @@ layout: compress
                                 {{page.title}}
                             </h1>
                         </div>
-                        <a href="{{site.url}}{{site.baseurl}}/project">
-                            <button class="delete column is-mobile is-1 "></button></a>
+                        
                     </div>
                     <hr class="has-background-black">
                     <div class="columns">
