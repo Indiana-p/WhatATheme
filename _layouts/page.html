@@ -12,18 +12,22 @@ layout: compress
         <div class="hero-body">
             <div class="container" id="page-section">
                 <div class="section">
-                    <h1 class="title is-2 is-uppercase has-text-weight-bold has-text-centered">
-                        {{page.title}}
-                    </h1>
+                    <div class="columns">
+                        <div class="column">
+                            <h1 class="title is-2 is-uppercase has-text-weight-bold has-text-centered">
+                                {{page.title}}
+                            </h1>
+                        </div>
+                        <a href="{{site.url}}{{site.baseurl}}/project">
+                            <button class="delete column is-1 is-offset-12"></button></a>
+                    </div>
                     <hr class="has-background-black">
                     <div class="columns">
                         <div class="column is-one-quarter">
                             <figure class="image">
                                 <img src="{{page.image}}" alt="{{site.author-name}}">
                             </figure>
-                            <a href="{{site.url}}{{site.baseurl}}/project"
-                                class="button is-fullwidth is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold">RETOUR</a>
-                            </a>
+
                         </div>
                         <div class="column">
                             <div class="content is-marginless has-text-justified">
