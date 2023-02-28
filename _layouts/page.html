@@ -13,6 +13,11 @@ layout: compress
             <div class="container" id="page-section">
                 <div class="section">
                     <div class="columns is-mobile">
+                        <div class="column is-marginless is-one-quarter">
+                            <figure class="image">
+                                <img src="{{page.image}}" alt="{{site.author-name}}">
+                            </figure>
+                        </div>
                         <div class="column">
                             <h1 class="title is-2 is-uppercase has-text-weight-bold has-text-centered">
                                 {{page.title}}
@@ -23,19 +28,17 @@ layout: compress
                     </div>
                     <hr class="has-background-black">
                     <div class="columns">
-                        <div class="column is-marginless is-one-quarter">
+                      <!--  <div class="column is-marginless is-one-quarter">
                             <figure class="image">
                                 <img src="{{page.image}}" alt="{{site.author-name}}">
                             </figure>
-
-                        </div>
+                        </div>-->
                         <div class="column">
                             <div class="content is-marginless has-text-justified">
                                 {{ content }}
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
