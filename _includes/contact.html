@@ -27,19 +27,19 @@
           <h3 class=" title is-size-4 is-uppercase has-text-weight-bold">
             {{site.title}}
           </h3>
-          <a class="is-size-4 is-uppercase has-text-weight-semibold has-text-black is-marginless"
+          <a class="title is-size-4 is-uppercase has-text-weight-semibold has-text-black is-marginless"
             href="{{site.url}}{{site.baseurl}}/#about">{{site.author-name}}</a>
-          <h3 class="is-size-5 has-text-weight-semibold has-text-black is-marginless">
+          <h3 class="title is-size-5 has-text-weight-semibold has-text-black is-marginless">
             ANTONY (92)
           </h3>
           {% unless site.telephone == %}
-          <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
+          <h3 class="title is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
             <i class="fas fa-mobile-alt"></i> <a href="tel:{{site.appel}}">{{site.telephone}}</a>
           </h3>
 
           {% endunless %}
           {% unless site.email == %}
-          <h3 class="is-size-5 is-lowercase has-text-weight-semibold has-text-black is-marginless">
+          <h3 class="title is-size-5-desktop is-size-6-touch is-lowercase has-text-weight-semibold has-text-black is-marginless">
             <i class="fas fa-envelope"></i> <a href="mailto:{{site.email}}">{{site.email}}</a>
           </h3>
 
