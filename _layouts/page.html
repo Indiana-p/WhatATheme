@@ -8,8 +8,6 @@ layout: compress
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
-            const $notification = $delete.parentNode;
-
             $delete.addEventListener('click', () => {
                 window.location.href = "{{site.url}}{{site.baseurl}}/project"
             });
@@ -24,7 +22,7 @@ layout: compress
             <div class="container" id="page-section">
                 <div class="section">
                     <div class="notification is-white">
-                        <button class="delete"></button>
+                        <button class="delete is-large"></button>
                     </div>
                     <div class="columns">
                         <div class="column is-marginless is-one-quarter">
@@ -40,18 +38,11 @@ layout: compress
                         </div>
                     </div>
                     <hr class="has-background-black">
-                    <div class="columns">
-                        <!--  <div class="column is-marginless is-one-quarter">
-                            <figure class="image">
-                                <img src="{{page.image}}" alt="{{site.author-name}}">
-                            </figure>
-                        </div>-->
-                        <div class="column">
-                            <div class="content is-marginless has-text-justified">
-                                {{ content }}
-                            </div>
-                        </div>
+
+                    <div class="content is-marginless has-text-justified">
+                        {{ content }}
                     </div>
+
                 </div>
             </div>
         </div>
