@@ -1,7 +1,7 @@
 - name: Le métier d’orthopédagogue
   image: ../assets/images/Cerveau%201.png
   link: def-ortho
-  description: "Description du métier d'orthopédagogue..."
+  description: "En quoi cela consiste?"
 - name: A qui s’adresse l’orthopédagogue ?
   link: qui
   image: ../assets/images/enfant.png
@@ -13,5 +13,5 @@
 - name: Les troubles des apprentissages
   link: Troubles
   image: ../assets/images/Ide.png
-  description: 
+  description: DYS, TDA/H,...
 
