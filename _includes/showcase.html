@@ -1,19 +1,27 @@
 <section class="hero is-fullheight has-text-centered" id="hero">
   <div class="hero-body">
     <div class="container">
-      <div class="box container">
-        <div class="box-inner">
-          <div class="box-front">
-            <figure class="image">
-              <img class= "image-arrondie" src="{{site.url}}{{site.baseurl}}/{{site.author-logo}}" alt="{{site.author-name}}">
-            </figure>
-          </div>
-          <div class="box-back">
-            <h2 class="is-size-5 has-text-weight-semibold has-text-white has-text-centered">
-              {{site.description1}}</h2>
-              ✱
-            <h2 class="is-size-5 has-text-weight-semibold has-text-white has-text-centered">
-              {{site.description2}}</h2>
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+
+          <div class="box boite container">
+
+            <div class="boite-inner">
+              <div class="boite-front">
+                <figure class="image">
+                  <img class="image-arrondie" src="{{site.url}}{{site.baseurl}}/{{site.author-logo}}"
+                    alt="{{site.author-name}}">
+                </figure>
+              </div>
+              <div class="boite-back">
+                <h2 class="is-size-5 has-text-weight-semibold has-text-white has-text-centered">
+                  {{site.description1}}</h2>
+                ✱
+                <h2 class="is-size-5 has-text-weight-semibold has-text-white has-text-centered">
+                  {{site.description2}}</h2>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -30,14 +38,17 @@
         {{site.description}}
       </h2>
       <hr>
-      <h4 class="title has-text-white-bis is-size-5 has-text-weight-normal is-uppercase">{{site.author-name}} Orthopédagogue<br>{{site.telephone}}</h4>
+      <h4 class="title has-text-white-bis is-size-5 has-text-weight-normal is-uppercase">{{site.author-name}}
+        Orthopédagogue<br>{{site.telephone}}</h4>
       <br>
-      <a href="{{site.url}}{{site.baseurl}}/#about"
-        class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">QUI SUIS-JE ?</a>
-      </a>
-      <a href="{{site.url}}{{site.baseurl}}/#contact"
-        class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">ME CONTACTER</a>
-      </a>
+      <div class="buttons is-centered">
+        <a href="{{site.url}}{{site.baseurl}}/#about"
+          class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">QUI SUIS-JE ?</a>
+        </a>
+        <a href="{{site.url}}{{site.baseurl}}/#contact"
+          class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">ME CONTACTER</a>
+        </a>
+      </div>
     </div>
   </div>
 </section>

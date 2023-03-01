@@ -73,15 +73,15 @@ hr {
     }
 }
 
-.box {
+.boite {
     background-color: transparent;
     width: 260px;
-    height: 270px;
+    height: 275px;
     border: 0px solid #eeeeee;
     perspective: 1000px;
   }
 
-  .box-inner {
+  .boite-inner {
     position: relative;
     width: 100%;
     height: 100%;
@@ -90,24 +90,24 @@ hr {
     transform-style: preserve-3d;
   }
 
-  .box:hover .box-inner {
+  .boite:hover .boite-inner {
     transform: rotateY(180deg);
   }
 
-  .box-front,
-  .box-back {
+  .boite-front,
+  .boite-back {
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
   }
 
-  .box-front {
+  .boite-front {
     background-color: transparent;
     color: #111111;
   }
 
-  .box-back {
+  .boite-back {
     background-color: #8ebf42;
     color: #eeeeee;
     padding: 10% 3%;
