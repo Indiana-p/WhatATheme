@@ -5,6 +5,17 @@ layout: compress
 <!DOCTYPE html>
 <html>
 {% include head.html %}
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
+            const $notification = $delete.parentNode;
+
+            $delete.addEventListener('click', () => {
+                window.location.href = "{{site.url}}{{site.baseurl}}/project"
+            });
+        });
+    });
+</script>
 
 <body>
     {% include navbar.html %}
@@ -12,9 +23,8 @@ layout: compress
         <div class="hero-body">
             <div class="container" id="page-section">
                 <div class="section">
-                    <div style="text-align: right;">
-                        <a href="{{site.url}}{{site.baseurl}}/project">
-                            <button class="delete "></button></a>
+                    <div class="notification is-white">
+                        <button class="delete"></button>
                     </div>
                     <div class="columns">
                         <div class="column is-marginless is-one-quarter">
@@ -23,7 +33,8 @@ layout: compress
                             </figure>
                         </div>
                         <div class="column">
-                            <h3 class="title is-size-3-desktop is-size-4-touch is-uppercase has-text-weight-bold has-text-centered">
+                            <h3
+                                class="title is-size-3-desktop is-size-4-touch is-uppercase has-text-weight-bold has-text-centered">
                                 {{page.title}}
                             </h3>
                         </div>
