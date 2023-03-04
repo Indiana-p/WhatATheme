@@ -5,9 +5,9 @@
     </div>
     <!--Footer Main Section-->
     <div class="has-background-grey-darker">
-        <div class="container columns">
+        <div class="container columns has-text-left-desktop has-text-centered-mobile">
             <!--Name Section-->
-            <div class="column has-text-left-desktop has-text-centered-mobile">
+            <div class="column ">
                 <a href="{{site.url}}{{site.baseurl}}/#about">
                     <div class="columns">
                         <div class="column is-one-fifth-desktop is-one-fifth-fullhd is-one-quarter-tablet">
@@ -17,8 +17,8 @@
                             </figure>
                         </div>
                         <div class="column is-marginless">
-                            <h3 class="has-text-grey-lighter">{{site.author-name}}</h3>
-                            <div class="content has-text-grey">
+                            <h3 class="has-text-white">{{site.author-name}}</h3>
+                            <div class="content has-text-grey-lighter">
                                 <p>{{site.author-about | truncate: 90 }}</p>
                             </div>
                         </div>
@@ -38,10 +38,10 @@
                 {% endfor %} -->
                 <ul>
                     <li>
-                        <a href="https://www.orthopedagogues.fr/">Union des Orthopédagogues de France</a>
+                        <a class="content has-text-grey-lighter" href="https://www.orthopedagogues.fr/">Union des Orthopédagogues de France</a>
                     </li>
                     <li>
-                        <a href="https://www.ecoleorthopedagogie.fr/">Ecole Française d'Orthopédagogie</a>
+                        <a class="content has-text-grey-lighter" href="https://www.ecoleorthopedagogie.fr/">Ecole Française d'Orthopédagogie</a>
                     </li>
                 </ul>
             </div>
