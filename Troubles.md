@@ -5,8 +5,9 @@ layout: page
 ---
 Forte d’une grande expérience de terrain au plus près des besoins des élèves porteurs de
 troubles des apprentissages, je connais bien les aménagements pédagogiques qui peuvent
-être mis en place pour aider ces élèves au quotidien et leur permettre de réussir leur
+être mis en place pour les aider au quotidien et leur permettre de réussir leur
 scolarité à la hauteur de leurs capacités.
+
 
 Mon expertise orthopédagogique complète désormais ces compétences et aide l’enfant
 porteur de troubles dys à utiliser efficacement ses ressources pour mettre en œuvre des
@@ -33,6 +34,8 @@ développementaux. On distingue :
 
 Bibliographie utile à destination des parents :
 
+_Dys: Outils & Adaptations dans ma classe_, Géraldine Mazeau et Michèle Mazeau, Collection _Comprendre et aider_, Editions Retz, 2020, 2022
+
 _Troubles dys- Ensemble, allons à l’essentiel_, Dr. Alain Pouhet, Collection _« Concrètement,
 que faire ? »_, Editions Tom Pousse
 
@@ -42,7 +45,7 @@ _« Concrètement, que faire ? »_, Editions Tom Pousse
 _La mémoire à l’école_, Dr. Michèle Mazeau et Michèle Cerisier-Pouhet, Collection
 _« Concrètement, que faire ? »_, Editions Tom Pousse
 
-_Scolarité d’un dyspraxique avec son ordinateur_, Anne Sint-Mathieu, Collection _Témoignage_,
+_Scolarité d’un dyspraxique avec son ordinateur_, Anne Saint-Mathieu, Collection _Témoignage_,
 Editions Tom Pousse
 
 _TDA/H Mode d’emploi_, Pascale de Coster, Editions Erasme

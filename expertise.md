@@ -7,4 +7,4 @@ Un premier entretien nous permet d’échanger sur votre demande, sur le parcour
 
 Puis j’observe en situation les stratégies et les mécanismes mentaux de votre enfant afin d’identifier ses points d’appui et les défis à relever.
 
-Enfin, j’établis un plan d’intervention adapté dans le but de développer les stratégies d’apprentissage qui feront progresser votre enfant à la hauteur de ses capacités.
+Enfin, j’établis un plan d’intervention adapté dans le but de développer les stratégies d’apprentissage qui le feront progresser à la hauteur de ses capacités.

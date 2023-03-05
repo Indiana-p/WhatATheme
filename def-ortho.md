@@ -20,9 +20,8 @@ d’optimiser leurs stratégies d&#39;apprentissage au service de leur réussite
 * développer sa motivation.
 
 L’**orthopédagogue** s’appuie sur la gestion mentale, les profils d’apprentissages et la pensée
-visuelles mais également sur les dernières découvertes scientifiques en neuro-éducation et
-en sciences cognitives. Il a pour but de faire émerger les mécanismes mentaux de son élève
-en jeu dans les apprentissages afin de les mettre en œuvre efficacement et de les
+visuelle mais également sur les dernières découvertes scientifiques en neuro-éducation et
+en sciences cognitives. Il a pour but de faire émerger les mécanismes mentaux en jeu dans les apprentissages afin de les mettre en œuvre efficacement et de les
 développer.
 
 **_Ainsi l’élève renoue avec l’envie d’apprendre, la réussite, l’estime de soi et la motivation_**.
