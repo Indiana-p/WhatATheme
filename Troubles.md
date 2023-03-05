@@ -5,7 +5,7 @@ layout: page
 ---
 
 
-<img style="float: right; vertical-align:middle;margin:0px 0px 10px 20px" alt="DYS" src="../assets/images/DYS_adaptation2.jpg">
+<img style="float: right; vertical-align:middle;margin:0px 0px 5px 10px" width="193" height="224" alt="DYS" src="../assets/images/DYS_adaptation2.jpg">
 Forte d’une grande expérience de terrain au plus près des besoins des élèves porteurs de
 troubles des apprentissages, je connais bien les aménagements pédagogiques qui peuvent
 être mis en place pour les aider au quotidien et leur permettre de réussir leur
