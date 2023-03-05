@@ -3,10 +3,14 @@ title: Les troubles des apprentissages
 image: ../assets/images/Ide.png
 layout: page
 ---
+
+
+<img style="float: right; vertical-align:middle;margin:0px 0px 10px 20px" alt="DYS" src="../assets/images/DYS_adaptation2.jpg">
 Forte d’une grande expérience de terrain au plus près des besoins des élèves porteurs de
 troubles des apprentissages, je connais bien les aménagements pédagogiques qui peuvent
 être mis en place pour les aider au quotidien et leur permettre de réussir leur
 scolarité à la hauteur de leurs capacités.
+
 
 
 Mon expertise orthopédagogique complète désormais ces compétences et aide l’enfant
