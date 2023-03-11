@@ -17,9 +17,9 @@ d’optimiser leurs stratégies d&#39;apprentissage au service de leur réussite
 * comprendre,
 * s’organiser,
 * apprendre à apprendre, à travailler efficacement,
-* développer sa motivation.
+* renforcer sa motivation.
 
-L’**orthopédagogue** s’appuie sur la gestion mentale, les profils d’apprentissages et la pensée
+L’**orthopédagogue** est le spécialiste des difficultés d'apprentissage. Il s’appuie sur la gestion mentale, les profils d’apprentissages et la pensée
 visuelle mais également sur les dernières découvertes scientifiques en neuro-éducation et
 en sciences cognitives. Il a pour but de faire émerger les mécanismes mentaux en jeu dans les apprentissages afin de les mettre en œuvre efficacement et de les
 développer.
