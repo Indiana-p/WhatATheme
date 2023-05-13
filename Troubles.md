@@ -39,7 +39,7 @@ développementaux. On distingue :
 Bibliographie utile à destination des parents :
 
 _Dys: Outils & Adaptations dans ma classe_, <br>
-Géraldine Mazeau et Michèle Mazeau, Collection _Comprendre et aider_, Editions Retz, 2020, 2022
+Géraldine Loty et Michèle Mazeau, Collection _Comprendre et aider_, Editions Retz, 2020, 2022
 
 _Troubles dys- Ensemble, allons à l’essentiel_, <br>
 Dr. Alain Pouhet, Collection _« Concrètement,
