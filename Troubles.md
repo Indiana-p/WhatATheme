@@ -5,18 +5,17 @@ layout: page
 ---
 
 
-<img style="float: right; vertical-align:middle;margin:0px 0px 5px 10px" width="193" height="224" alt="DYS" src="../assets/images/DYS_adaptation2.jpg">
+[<img style="float: right; vertical-align:middle;margin:0px 0px 5px 10px" width="193" height="224" alt="DYS" src="../assets/images/DYS_adaptation2.jpg">]({{site.livre-url}}){:target="_blank"}{:rel="noopener noreferrer"}
 Forte d’une grande expérience de terrain au plus près des besoins des élèves porteurs de
 troubles des apprentissages, je connais bien les aménagements pédagogiques qui peuvent
 être mis en place pour les aider au quotidien et leur permettre de réussir leur
 scolarité à la hauteur de leurs capacités.
 
 
-
 Mon expertise orthopédagogique complète désormais ces compétences et aide l’enfant
 porteur de troubles dys à utiliser efficacement ses ressources pour mettre en œuvre des
 stratégies pertinentes pour mémoriser, apprendre, comprendre, s’organiser et soutenir sa
-motivation dans ses taches scolaires au quotidien.
+motivation dans ses tâches scolaires au quotidien.
 
 {:refdef: style="text-align: center;"}
 ![Visuel Dys](../assets/images/Visuel_dys.png)
