@@ -17,6 +17,6 @@ layout: page
 * Difficultés de planification
 * Difficultés en mathématiques
 * Décrochage scolaire
-* Résultats scolaires décevant au regard du travail fourni
+* Résultats scolaires décevants au regard du travail fourni
 * Besoin d’apprendre à s’organiser dans son travail
 * Préparation d’un examen

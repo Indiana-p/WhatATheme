@@ -22,9 +22,10 @@ Le suivi orthopédagogique a lieu au cours de séances hebdomadaires d’une heu
 * Temps de réactivation de la séance : qu’a-t-on appris lors de la séance ?
 
 ### Au sein d'une structure (association, structure municipale, établissement scolaire)
->Ateliers en petits groupes au sein de votre structure. Ils ont pour but : 
-* la découverte ou le renforcément de certaines fonctions exécutives (fonctions essentielles aux apprentissages) 
-* ou encore propose une méthodologie avancée pour un travail personnel plus efficace. 
+>Ateliers en petits groupes au sein de votre structure. Ils ont pour but de : 
+* découvrir le fonctionnement de son cerveau lors des apprentissages
+* renforcer certaines fonctions exécutives (fonctions cérébrales essentielles aux apprentissages) 
+* proposer une méthodologie avancée pour un travail personnel plus efficace. 
 >
 >Chaque atelier s'articule autour :
 * de jeux de société ciblés, de vidéos, d'activités spécifiques, de mises en situation... 
