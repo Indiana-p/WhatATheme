@@ -38,21 +38,21 @@ développementaux. On distingue :
 ---
 #### Bibliographie utile à destination des parents :
 
->_**Dys: Outils & Adaptations dans ma classe**_, <br>
+>_**Dys: Outils & Adaptations dans ma classe**_, \\
 Géraldine Loty et Michèle Mazeau, Collection _Comprendre et aider_, Editions Retz, 2020, 2022
 >
->_**Troubles dys- Ensemble, allons à l’essentiel**_, <br>
+>_**Troubles dys- Ensemble, allons à l’essentiel**_, \\
 Dr. Alain Pouhet, Collection _« Concrètement,
 que faire ? »_, Editions Tom Pousse
 >
->_**Prise en charge et rééducation des troubles dys-**_,<br>
+>_**Prise en charge et rééducation des troubles dys-**_, \\
  Dr. Michèle Mazeau, Collection _« Concrètement, que faire ? »_, Editions Tom Pousse
 >
->_**La mémoire à l’école_**, <br>
+>_**La mémoire à l’école**_, \\
 Dr. Michèle Mazeau et Michèle Cerisier-Pouhet, Collection _« Concrètement, que faire ? »_, Editions Tom Pousse
 >
->_**Scolarité d’un dyspraxique avec son ordinateur**_, <br>
+>_**Scolarité d’un dyspraxique avec son ordinateur**_, \\
 Anne Saint-Mathieu, Collection _Témoignage_, Editions Tom Pousse
 >
->_**TDA/H Mode d’emploi**_, <br>
+>_**TDA/H Mode d’emploi**_, \\
 Pascale de Coster, Editions Erasme
