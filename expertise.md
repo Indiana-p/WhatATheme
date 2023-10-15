@@ -10,16 +10,16 @@ de votre enfant et vos inquiétudes.<br>
 enfant afin d’identifier ses points d’appui et les défis à relever.<br>
 >Enfin, j’établis un plan d’intervention adapté dans le but de développer les
 stratégies d’apprentissage qui le feront progresser à la hauteur de ses capacités.<br>
-Le suivi orthopédagogique a lieu au cours de séances hebdomadaires d’une heure.
+**Le suivi orthopédagogique a lieu au cours de séances hebdomadaires d’une heure.**
 
-#### Déroulé d’une séance
-* Temps d’accueil et de partage
-* Réactivation de la séance précédente / Point sur ce qui était à travailler
-* Découverte de son propre fonctionnement, de nouvelles stratégies cognitives, d’autres mécanismes mentaux<br>
+#### Déroulé type d’une séance
+1. Temps d’accueil et de partage
+2. Réactivation de la séance précédente / Point sur ce qui était à travailler
+3. Découverte de son propre fonctionnement, de nouvelles stratégies cognitives, d’autres mécanismes mentaux<br>
     * à travers différents supports : jeux de société ciblés, vidéos, documents, activités spécifiques, mise en situation…
     * à travers le dialogue orthopédagogique (métacognitif)
-* Transfert de ces apprentissages dans des activités scolaires afin de pouvoir les mettre en pratique dans son quotidien à l’école et à la maison.
-* Temps de réactivation de la séance : qu’a-t-on appris lors de la séance ?
+4. Transfert de ces apprentissages dans des activités scolaires afin de pouvoir les mettre en pratique dans son quotidien à l’école et à la maison.
+5. Temps de réactivation de la séance : qu’a-t-on appris lors de la séance ?
 
 ### Au sein d'une structure (association, structure municipale, établissement scolaire)
 >Ateliers en petits groupes au sein de votre structure. Ils ont pour but de : 

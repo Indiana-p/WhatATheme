@@ -19,7 +19,7 @@ d’optimiser leurs stratégies d&#39;apprentissage au service de leur réussite
 * mémoriser
 * comprendre
 * s’organiser
-* apprendre à apprendre, à travailler efficacement
+* _apprendre à apprendre_ et à travailler efficacement
 
 
 L’**orthopédagogue** est le spécialiste des difficultés d'apprentissage. Il s’appuie sur la gestion mentale, les profils d’apprentissages et la pensée
