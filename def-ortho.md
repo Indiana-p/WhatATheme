@@ -10,7 +10,7 @@ Canada, Belgique, Suisse, Finlande… Il s’implante depuis quelques années en
 
 Le métier d’**orthopédagogue**, à la croisée de la pédagogie et des sciences cognitives,
 apporte une aide professionnelle ciblée aux élèves en difficulté en leur permettant
-d’optimiser leurs stratégies d&#39;apprentissage au service de leur réussite scolaire :
+d’optimiser leurs stratégies d'apprentissage au service de leur réussite scolaire :
 
 * réguler ses émotions
 * développer sa flexibilité
