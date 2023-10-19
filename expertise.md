@@ -8,7 +8,8 @@ layout: page
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 100%; 
+    max-width: 700px;
     }
 </style>
 
@@ -22,9 +23,6 @@ stratégies d’apprentissage qui le feront progresser à la hauteur de ses capa
 **Le suivi orthopédagogique a lieu au cours de séances hebdomadaires d’une heure.**
 
 #### Déroulé type d’une séance
-<!-- {:refdef: style="text-align: center;"}
-![Visuel Dys](../assets/images/seance_type.png)
-{: refdef}-->
 ![Visuel Dys](./assets/images/seance_type.png){:class="center"}
 
 

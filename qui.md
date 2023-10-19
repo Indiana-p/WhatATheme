@@ -8,7 +8,8 @@ layout: page
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 100%; 
+    max-width: 700px;
     }
 </style>
 
