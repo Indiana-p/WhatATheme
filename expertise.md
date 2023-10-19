@@ -3,6 +3,15 @@ title: L’expertise orthopédagogique
 image: "../assets/images/Cerveau%203.png"
 layout: page
 ---
+<style type="text/css">
+    .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    }
+</style>
+
 ### En cabinet
 >Un premier entretien nous permet d’échanger sur motif de votre demande, sur le parcours
 de votre enfant et vos inquiétudes.\\
@@ -13,14 +22,13 @@ stratégies d’apprentissage qui le feront progresser à la hauteur de ses capa
 **Le suivi orthopédagogique a lieu au cours de séances hebdomadaires d’une heure.**
 
 #### Déroulé type d’une séance
-{:refdef: style="text-align: center;"}
+<!-- {:refdef: style="text-align: center;"}
 ![Visuel Dys](../assets/images/seance_type.png)
-{: refdef}
-<!-- 
-<div style="text-align: center;">
-    <img src="../assets/images/seance_type.png" width="50%" height="auto" alt="sceance type">
-</div>
--->
+{: refdef}-->
+![Visuel Dys](./assets/images/seance_type.png){:class="center"}
+
+
+
 ### Au sein d'une structure (association, structure municipale, établissement scolaire)
 >Ateliers en petits groupes au sein de votre structure. Ils ont pour but de : 
 * découvrir le fonctionnement de son cerveau lors des apprentissages
@@ -32,18 +40,14 @@ stratégies d’apprentissage qui le feront progresser à la hauteur de ses capa
 * et d'un dialogue orthopédagogique (métacognitif) qui amène au transfert vers les apprentissages scolaires.
 
 <!--  #### Modules Primaires 6-8 ans -->
-{:refdef: style="text-align: center;"}
-![Visuel Dys](../assets/images/ateliers_6_8_ans.png)
-{: refdef}
+![Modules Primaires 6-8 ans](../assets/images/ateliers_6_8_ans.png){:class="center"}
+
 
 <!-- #### Modules Primaires 8-10 ans -->
-{:refdef: style="text-align: center;"}
-![Visuel Dys](../assets/images/ateliers_8_10_ans.png)
-{: refdef}
+![Modules Primaires 8-10 ans](../assets/images/ateliers_8_10_ans.png){:class="center"}
 
 <!-- #### Modules Collège -->
-{:refdef: style="text-align: center;"}
-![Visuel Dys](../assets/images/ateliers_college.png)
-{: refdef}
+![Modules Collège](../assets/images/ateliers_college.png){:class="center"}
+
 
 [Me contacter]({{site.url}}{{site.baseurl}}/#contact) pour un devis et établir le contenu détaillé des modules adaptés sur mesure à votre structure.
