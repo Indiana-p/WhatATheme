@@ -3,7 +3,15 @@ title: Les troubles des apprentissages
 image: ../assets/images/Ide.png
 layout: page
 ---
-
+<style type="text/css">
+    .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+    max-width: 700px;
+    }
+</style>
 
 [<img style="float: right; vertical-align:middle;margin:0px 0px 5px 10px" width="193" height="224" alt="DYS" src="../assets/images/DYS_adaptation2.jpg">]({{site.livre-url}}){:target="_blank"}{:rel="noopener noreferrer"}
 Forte d’une grande expérience de terrain au plus près des besoins des élèves porteurs de
@@ -17,9 +25,7 @@ porteur de troubles dys à utiliser efficacement ses ressources pour mettre en �
 stratégies pertinentes pour mémoriser, apprendre, comprendre, s’organiser et soutenir sa
 motivation dans ses tâches scolaires au quotidien.
 
-{:refdef: style="text-align: center;"}
-![Visuel Dys](../assets/images/Visuel_dys.png)
-{: refdef}
+![Visuel Dys](../assets/images/Visuel_dys.png){:class="center"}
 
 Les troubles des apprentissages ou « troubles dys » font partie des troubles neuro
 développementaux. On distingue :
