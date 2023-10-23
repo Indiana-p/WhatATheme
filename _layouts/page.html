@@ -34,12 +34,16 @@ layout: compress
         <div class="hero-body">
             <div class="container" id="page-section">
                 <div class="section">
+                    <div class="column is-12 is-mobile">
+                        <button class="delete is-large is-mobile is-pulled-right"></button>
+                    </div>
                     <div class="columns">
                         <div class="column is-marginless is-one-quarter">
                             <figure class="box image px-1 py-1">
                                 <img src="{{page.image}}" alt="{{site.author-name}}">
                             </figure>
                         </div>
+                        
                         <div class="column">
                             <h3
                                 class="title is-size-3-desktop is-size-4-touch is-uppercase has-text-weight-bold has-text-centered">
@@ -62,9 +66,6 @@ layout: compress
                                 {%- endunless -%}
                             </div>
                             <!--Ajouts des tags -->
-                        </div>
-                        <div class="column is-1 is-mobile">
-                            <button class="delete is-large is-mobile is-pulled-right"></button>
                         </div>
                     </div>
                     <hr class="has-background-black">
