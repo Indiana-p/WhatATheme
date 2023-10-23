@@ -2,6 +2,7 @@
 title: Les troubles des apprentissages
 image: ../assets/images/Ide.png
 layout: page
+tags:
 ---
 
 [<img style="float: right; vertical-align:middle;margin:0px 0px 5px 10px" width="193" height="224" alt="DYS" src="../assets/images/DYS_adaptation2.jpg">]({{site.livre-url}}){:target="_blank"}{:rel="noopener noreferrer"}
