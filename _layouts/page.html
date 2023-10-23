@@ -34,7 +34,6 @@ layout: compress
         <div class="hero-body">
             <div class="container" id="page-section">
                 <div class="section">
-                    <button class="delete is-large is-mobile is-pulled-right"></button>
                     <div class="columns">
                         <div class="column is-marginless is-one-quarter">
                             <figure class="box image px-1 py-1">
@@ -46,6 +45,7 @@ layout: compress
                                 class="title is-size-3-desktop is-size-4-touch is-uppercase has-text-weight-bold has-text-centered">
                                 {{page.title}}
                             </h3>
+                            
                             <!--Ajouts des tags 
                             <h2><br></h2>
                             <div>
@@ -62,6 +62,9 @@ layout: compress
                                 {%- endunless -%}
                             </div>
                             <!--Ajouts des tags -->
+                        </div>
+                        <div class="column is-1 is-mobile">
+                            <button class="delete is-large is-mobile is-pulled-right"></button>
                         </div>
                     </div>
                     <hr class="has-background-black">
