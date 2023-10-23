@@ -3,15 +3,6 @@ title: L’expertise orthopédagogique
 image: "../assets/images/Cerveau%203.png"
 layout: page
 ---
-<style type="text/css">
-    .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%; 
-    max-width: 700px;
-    }
-</style>
 
 ### En cabinet
 >Un premier entretien nous permet d’échanger sur motif de votre demande, sur le parcours

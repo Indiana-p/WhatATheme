@@ -3,15 +3,6 @@ title: Les troubles des apprentissages
 image: ../assets/images/Ide.png
 layout: page
 ---
-<style type="text/css">
-    .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%; 
-    max-width: 700px;
-    }
-</style>
 
 [<img style="float: right; vertical-align:middle;margin:0px 0px 5px 10px" width="193" height="224" alt="DYS" src="../assets/images/DYS_adaptation2.jpg">]({{site.livre-url}}){:target="_blank"}{:rel="noopener noreferrer"}
 Forte d’une grande expérience de terrain au plus près des besoins des élèves porteurs de
