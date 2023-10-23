@@ -9,7 +9,7 @@ layout: compress
 <!-- ce script gère la croix de fermeture pour revenir à la liste des "en savoir plus"-->
 <script>
     document.addEventListener('DOMContentLoaded', () => {
-        (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
+        (document.querySelectorAll('.delete') || []).forEach(($delete) => {
             $delete.addEventListener('click', () => {
                 window.location.href = "{{site.url}}{{site.baseurl}}/project"
             });
@@ -34,9 +34,7 @@ layout: compress
         <div class="hero-body">
             <div class="container" id="page-section">
                 <div class="section">
-                    <div class="notification is-white">
-                        <button class="delete is-large"></button>
-                    </div>
+                    <button class="delete is-large is-pulled-right"></button>
                     <div class="columns">
                         <div class="column is-marginless is-one-quarter">
                             <figure class="box image px-1 py-1">
