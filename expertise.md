@@ -2,6 +2,11 @@
 title: L’expertise orthopédagogique
 image: "../assets/images/Cerveau%203.png"
 layout: page
+tags:
+- méthodologie
+- stratégies
+- progression
+- ateliers
 ---
 
 ### En cabinet

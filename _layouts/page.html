@@ -46,6 +46,22 @@ layout: compress
                                 class="title is-size-3-desktop is-size-4-touch is-uppercase has-text-weight-bold has-text-centered">
                                 {{page.title}}
                             </h3>
+                            <!--Ajouts des tags 
+                            <h2><br></h2>
+                            <div>
+                                {%- assign tags = page.tags -%}
+                                {%- unless tags.size == 0 -%}
+                                <p class="subtitle is-uppercase">
+                                    <i class="fas fa-tags"></i>
+                                    {% assign i = 0 %}
+                                    {% for tags in page.tags %}
+                                    <span class="tag is-info">{{page.tags[i]}}</span>
+                                    {% assign i = i | plus:1 %}
+                                    {% endfor %}
+                                </p>
+                                {%- endunless -%}
+                            </div>
+                            <!--Ajouts des tags -->
                         </div>
                     </div>
                     <hr class="has-background-black">
