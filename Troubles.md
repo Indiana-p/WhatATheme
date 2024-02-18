@@ -22,7 +22,7 @@ motivation dans ses tâches scolaires au quotidien.
 Les troubles des apprentissages ou « troubles dys » font partie des troubles neuro
 développementaux. On distingue :
 
-* Les troubles spécifiques du langage oral (TSLO), communément appelés
+* Les troubles développementaux du langage oral (TDLO), communément appelés
 **dysphasies**
 * Les troubles développementaux de la coordination (TDC), communément appelés
 **dyspraxies**, et **dysgraphies**
@@ -31,7 +31,7 @@ développementaux. On distingue :
 
     * Troubles spécifiques de la lecture : **dyslexies**
     * Troubles spécifiques de l’expression écrite : **dysorthographies**
-    * Troubles spécifiques des mathématiques : **dyscalculies**
+    * Troubles de la cognition mathématique : **dyscalculies**
 
 ---
 #### Bibliographie utile à destination des parents :

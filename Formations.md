@@ -3,12 +3,13 @@ title: Formations et Conférences
 image: ../assets/images/Formation3.png
 layout: page
 tags:
-- difficultés
-- motivation
-- stress
+- Formations
+- Conférences
 ---
+<div class="columns">
+    <img class="column is-half center" src="../assets/images/Visuel_formations.png" alt="Formations" />
+    <img class="column is-half center" src="../assets/images/Visuel_conf.png" alt="Conférences" />
+</div>
 
-| ![Formation](../assets/images/Visuel_formations.png){:class="center"}|| ![Conférences](../assets/images/Visuel_conf.png){:class="center"} |
-
-
+[Me contacter]({{site.url}}{{site.baseurl}}/#contact) pour un devis et établir le contenu détaillé et adapté à votre besoin.
 
