@@ -7,8 +7,8 @@ tags:
 - Conférences
 ---
 <div class="columns">
-    <img class="column is-half center" src="../assets/images/Visuel_formations.png" alt="Formations" />
-    <img class="column is-half center" src="../assets/images/Visuel_conf.png" alt="Conférences" />
+    <img class="column is-one-third center" src="../assets/images/Visuel_formations.png" alt="Formations" />
+    <img class="column is-one-third center" src="../assets/images/Visuel_conf.png" alt="Conférences" />
 </div>
 
 [Me contacter]({{site.url}}{{site.baseurl}}/#contact) pour un devis et établir le contenu détaillé et adapté à votre besoin.
