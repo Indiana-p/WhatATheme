@@ -44,17 +44,17 @@
             href="{{site.url}}{{site.baseurl}}/#about">{{site.author-name}}</a>
           <h2><br></h2>
           <h3 class="title has-text-left is-size-5 has-text-weight-semibold has-text-black is-marginless">
-            <i class="fas fa-map"></i>{{site.author-adress}}
+            <i class="fas fa-map"></i>&nbsp;{{site.author-adress}}
           </h3>
           {% unless site.telephone == %}
           <h3 class="title is-size-6 has-text-left is-uppercase has-text-weight-semibold has-text-black is-marginless">
-            <i class="fas fa-mobile-alt"></i><a href="tel:{{site.appel}}">{{site.telephone}}</a>
+            <i class="fas fa-mobile-alt"></i>&nbsp;<a href="tel:{{site.appel}}">{{site.telephone}}</a>
           </h3>
           {% endunless %}
           {% unless site.email == %}
           <h2
             class="title has-text-left is-size-6-desktop is-size-6-touch is-lowercase has-text-weight-semibold has-text-black is-marginless">
-            <i class="fas fa-envelope"></i><a href="mailto:{{site.email}}">{{site.email}}</a>
+            <i class="fas fa-envelope"></i>&nbsp;<a href="mailto:{{site.email}}">{{site.email}}</a>
           </h2>
           {% endunless %}
           <br>
@@ -62,12 +62,12 @@
             <a id="contact-button"
               class="button is-rounded is-size-6-touch is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-three-fifths "
               href="https://tally.so#tally-open=nG6zlZ&tally-emoji-text=👋&tally-emoji-animation=wave">
-              <i class="fa fa-file-text"></i>Formulaire de contact</a>
+              <i class="fa fa-file-text">&nbsp;</i>Formulaire de contact</a>
             {% unless site.twitter_username == %}
             <a id="contact-button" href="https://www.twitter.com/intent/tweet?screen_name={{site.twitter_username}}"
               class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
               target="_blank">
-              <i class="fab fa-twitter"></i>Tweet me on Twitter
+              <i class="fab fa-twitter">&nbsp;</i>Tweet me on Twitter
             </a>
             {% endunless %}
           </div>
