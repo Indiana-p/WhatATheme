@@ -11,5 +11,5 @@ tags:
     <img class="column is-one-third center" src="../assets/images/Visuel_conf.png" alt="Conférences" />
 </div>
 
-[Me contacter]({{site.url}}{{site.baseurl}}/#contact) pour un devis et établir le contenu détaillé et adapté à votre besoin.
+[Me contacter]({{site.url}}{{site.baseurl}}/#contact) pour un devis et établir le contenu détaillé et adapté à votre besoin
 
