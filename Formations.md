@@ -9,7 +9,7 @@ tags:
 #### Conférence du Dr Michèle Mazeau et Géraldine Loty "Nul.le en Maths ? Aucune fatalité" (octobre 2025)
 Journée nationale des DYS pour l'association [APEDYS91](https://apedys91.fr/)
 <div class="columns is-mobile is-centered">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/w9J3gC7xeYM?si=0cBmzLReMsrBKtte" title="Nul(le) en maths ? Aucune fatalité !" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="336" height="189" src="https://www.youtube.com/embed/w9J3gC7xeYM?si=0cBmzLReMsrBKtte" title="Nul(le) en maths ? Aucune fatalité !" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 ---
 <div class="columns">
